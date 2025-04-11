@@ -43,8 +43,7 @@ a:hover {
 .logo img {
     position: absolute;
     top: 4%;
-    left: 1%;
-    width: 7.5vw;
+    width: 20vw;
 }
 .header {
     width: 100%;
@@ -69,10 +68,26 @@ a:hover {
     position: relative;
     height: 60vh;
 }
-
+.webinar-hero h4{
+    margin-top: 150px;
+    font-size: 1.5vw;
+    font-weight: 500;
+    display: inline-block;
+    color: #221F20;
+    padding: 0 10px;
+    background: #00D1A9;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.webinar-hero h2{
+    font-size: 2.4vw;
+    font-weight: 400;
+}
 .webinar-hero h1{
     font-size: 2.5vw;
+    color: #00D6A8;
     font-weight: 500;
+    margin-bottom: 80px;
 }
 .webinar-hero p{
     font-size: 1.158vw;
@@ -88,8 +103,9 @@ a:hover {
     line-height: normal;
     color: #000000;
     border-radius: 4px;
-    padding: 1.4vw 2.1vw 1.1vw;
-    background: #FFFFFF;
+    padding: 1.1vw 1.4vw 1.1vw;
+    background: #00D6A8;
+    font-weight: 600;
 }
 
 .gobal-webinar-btn a img {
@@ -138,6 +154,16 @@ a:hover {
 
 .webn-left {
     width: 40%;
+}
+.mar-top-20{
+    margin-top: 20px;
+}
+.webinar-list{
+    padding-left: 40px;
+}
+.webinar-list li{
+    list-style: disc;
+    margin-top: 15px;
 }
 
 .webn-left h3 {
@@ -195,7 +221,7 @@ a:hover {
 
 .about-speakers{
     margin-top: 73px;
-    width: 48%;
+    width: 75%;
 }
 .about-speakers h3{
     margin-bottom: 30px;
@@ -207,14 +233,13 @@ a:hover {
 }
 .perona{
     text-align: center;
-    width: 48%;
+    width: 31%;
     padding:20px 15px;
     background: #F1F3F3;
     border-radius: 10px;
 }
 .persona-img{
     position: relative;
-    margin-bottom: 20px;
 }
 .persona-img img{
     width: 50%;
